@@ -2,6 +2,11 @@
   "sources": {
     "music": [
       {
+        "id": "music-warhead-storage",
+        "src": "https://ia803400.us.archive.org/19/items/metal-gear-solid-original-game-soundtrack/08.%20Warhead%20Storage.mp3",
+        "volume": 0.5
+      },
+      {
         "id": "music-introduction",
         "src": "https://archive.org/download/metal-gear-solid-original-game-soundtrack/02.%20Introduction.mp3",
         "volume": 0.5
@@ -203,6 +208,11 @@
       "music": "music-intruder-1"
     },
     {
+      "id": "stage-6",
+      "label": "Stage 6 - Warhead Storage",
+      "music": "music-warhead-storage"
+    },
+    {
       "id": "stage-boss",
       "label": "Boss",
       "music": "music-duel"
@@ -232,7 +242,11 @@
         }
       ],
       "show_if": {
-        "stage": { "not_in": ["stage-boss"] }
+        "stage": {
+          "not_in": [
+            "stage-boss"
+          ]
+        }
       }
     },
     {
@@ -255,7 +269,11 @@
         }
       ],
       "show_if": {
-        "stage": { "in": ["stage-3"] }
+        "stage": {
+          "in": [
+            "stage-3"
+          ]
+        }
       }
     },
     {
@@ -268,7 +286,11 @@
         }
       ],
       "show_if": {
-        "stage": { "in": ["stage-3"] }
+        "stage": {
+          "in": [
+            "stage-3"
+          ]
+        }
       }
     },
     {
@@ -281,7 +303,11 @@
         }
       ],
       "show_if": {
-        "stage": { "in": ["stage-vr"] }
+        "stage": {
+          "in": [
+            "stage-vr"
+          ]
+        }
       }
     }
   ],
@@ -335,7 +361,11 @@
       "category": "guards",
       "label": "👮‍♂️❗",
       "show_if": {
-        "override": { "in": ["override-alert"] }
+        "override": {
+          "in": [
+            "override-alert"
+          ]
+        }
       },
       "play": [
         {
@@ -349,7 +379,11 @@
       "category": "guards",
       "label": "👮‍♂️🔊 Return to your positions",
       "show_if": {
-        "override": { "not_in": ["override-alert"] }
+        "override": {
+          "not_in": [
+            "override-alert"
+          ]
+        }
       },
       "play": [
         {
@@ -363,7 +397,11 @@
       "category": "guards",
       "label": "👮‍♂️❔ What was that noise?",
       "show_if": {
-        "override": { "not_in": ["override-alert"] }
+        "override": {
+          "not_in": [
+            "override-alert"
+          ]
+        }
       },
       "play": [
         {
@@ -377,7 +415,11 @@
       "category": "guards",
       "label": "👮❔‍ I heard something",
       "show_if": {
-        "override": { "not_in": ["override-alert"] }
+        "override": {
+          "not_in": [
+            "override-alert"
+          ]
+        }
       },
       "play": [
         {
@@ -391,7 +433,11 @@
       "category": "guards",
       "label": "👮‍♂️❗ Eat this!",
       "show_if": {
-        "override": { "in": ["override-alert"] }
+        "override": {
+          "in": [
+            "override-alert"
+          ]
+        }
       },
       "play": [
         {
@@ -405,7 +451,11 @@
       "category": "guards",
       "label": "👮‍♂️❗🔊 There he is!",
       "show_if": {
-        "override": { "in": ["override-alert"] }
+        "override": {
+          "in": [
+            "override-alert"
+          ]
+        }
       },
       "play": [
         {
@@ -419,7 +469,11 @@
       "category": "guards",
       "label": "👮‍♂️❗🔊 This way!",
       "show_if": {
-        "override": { "in": ["override-alert"] }
+        "override": {
+          "in": [
+            "override-alert"
+          ]
+        }
       },
       "play": [
         {
@@ -433,7 +487,11 @@
       "category": "guards",
       "label": "👮‍♂️❔ What's that?",
       "show_if": {
-        "override": { "not_in": ["override-alert"] }
+        "override": {
+          "not_in": [
+            "override-alert"
+          ]
+        }
       },
       "play": [
         {
@@ -446,7 +504,11 @@
       "id": "sfx-guard-whered-he-go",
       "category": "guards",
       "show_if": {
-        "override": { "in": ["override-alert"] }
+        "override": {
+          "in": [
+            "override-alert"
+          ]
+        }
       },
       "label": "👮‍♂️❗ Where'd he go?",
       "play": [
@@ -461,7 +523,11 @@
       "category": "guards",
       "label": "👮‍♂️❗ Who's that?",
       "show_if": {
-        "override": { "in": ["override-alert"] }
+        "override": {
+          "in": [
+            "override-alert"
+          ]
+        }
       },
       "play": [
         {
@@ -519,7 +585,11 @@
       "category": "guards",
       "label": "📸❗ Camera alert",
       "show_if": {
-        "override": { "in": ["override-alert"] }
+        "override": {
+          "in": [
+            "override-alert"
+          ]
+        }
       },
       "play": [
         {
