@@ -10,7 +10,7 @@ And this will be my version:
 
 https://deehalf.github.io/metal-gear-solid-soundboard
 
-The app was mainly built using GitHub Copilot since I didn't want to over engineer this simple project.
+The app was mainly built using GitHub Copilot since Wikiti didn't want to over engineer this simple project.
 
 ## TODO
 
