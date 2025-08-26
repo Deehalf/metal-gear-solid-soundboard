@@ -1,8 +1,14 @@
 # Metal Gear Solid soundboard
 
-A simple web app to play sounds during a Metal Gear Solid by CMON play session. Check the app here:
+This is a webb app made by @Wikiti (original work at https://github.com/wikiti/metal-gear-solid-soundboard), I made this copy to try to add a few music themes withouth breaking his app and his work.
+
+Check the original app here:
 
 https://wikiti.github.io/metal-gear-solid-soundboard
+
+And this will be my version: 
+
+https://deehalf.github.io/metal-gear-solid-soundboard
 
 The app was mainly built using GitHub Copilot since I didn't want to over engineer this simple project.
 
