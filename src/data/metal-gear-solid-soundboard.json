@@ -2,6 +2,11 @@
   "sources": {
     "music": [
       {
+        "id": "music-ending",
+        "src": "https://dn720306.ca.archive.org/0/items/metal-gear-solid-original-game-soundtrack/18.%20End%20Title%20%23%20The%20Best%20is%20Yet%20to%20Come.mp3",
+        "volume": 0.5
+      },
+      {
         "id": "music-mantis-hymn",
         "src": "https://ia803400.us.archive.org/19/items/metal-gear-solid-original-game-soundtrack/10.%20Mantis%27%20Hymn.mp3",
         "volume": 0.5
@@ -241,6 +246,11 @@
       "id": "stage-boss",
       "label": "Boss",
       "music": "music-duel"
+    },
+    {
+      "id": "stage-ending",
+      "label": "Ending",
+      "music": "music-ending"
     },
     {
       "id": "stage-vr",
