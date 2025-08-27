@@ -300,10 +300,27 @@
     },
     {
       "id": "override-board-mantis",
-      "label": "🔊 7A - Mantis Hymn",
+      "label": "🔊 9A - Nuke Building B1",
       "play": [
         {
           "id": "music-mantis-hymn",
+          "delay": 0
+        }
+      ],
+      "show_if": {
+        "stage": {
+          "in": [
+            "stage-6"
+          ]
+        }
+      }
+    },
+    {
+      "id": "override-warhead-storage",
+      "label": "🔊 11A - Nuke Building L1",
+      "play": [
+        {
+          "id": "music-warhead-storage",
           "delay": 0
         }
       ],
