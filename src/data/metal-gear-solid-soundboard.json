@@ -7,6 +7,11 @@
         "volume": 0.5
       },
       {
+        "id": "music-hind",
+        "src": "https://dn720306.ca.archive.org/0/items/metal-gear-solid-original-game-soundtrack/11.%20Hind%20D.mp3",
+        "volume": 0.5
+      },
+      {
         "id": "music-warhead-storage",
         "src": "https://ia803400.us.archive.org/19/items/metal-gear-solid-original-game-soundtrack/08.%20Warhead%20Storage.mp3",
         "volume": 0.5
@@ -226,6 +231,11 @@
       "id": "stage-9",
       "label": "Stage 9 - Prison Break",
       "music": "music-cavern"
+    },
+    {
+      "id": "stage-10",
+      "label": "Stage 10 - Helicopter Gunship",
+      "music": "music-hind"
     },
     {
       "id": "stage-boss",
