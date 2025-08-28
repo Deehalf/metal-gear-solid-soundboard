@@ -2,6 +2,26 @@
   "sources": {
     "music": [
       {
+        "id": "music-escape",
+        "src": "https://dn720306.ca.archive.org/0/items/metal-gear-solid-original-game-soundtrack/17.%20Escape.mp3",
+        "volume": 0.5
+      },
+      {
+        "id": "music-rex-lair",
+        "src": "https://dn720306.ca.archive.org/0/items/metal-gear-solid-original-game-soundtrack/16.%20REX%27s%20Lair.mp3",
+        "volume": 0.5
+      },
+      {
+        "id": "music-colosseo",
+        "src": "https://dn720306.ca.archive.org/0/items/metal-gear-solid-original-game-soundtrack/15.%20Colosseo.mp3",
+        "volume": 0.5
+      },
+      {
+        "id": "music-blast-furnace",
+        "src": "https://dn720306.ca.archive.org/0/items/metal-gear-solid-original-game-soundtrack/14.%20Blast%20Furnace.mp3",
+        "volume": 0.5
+      },
+      {
         "id": "music-ending",
         "src": "https://dn720306.ca.archive.org/0/items/metal-gear-solid-original-game-soundtrack/18.%20End%20Title%20%23%20The%20Best%20is%20Yet%20to%20Come.mp3",
         "volume": 0.5
@@ -243,6 +263,16 @@
       "music": "music-hind"
     },
     {
+      "id": "stage-13",
+      "label": "Stage 13 - PAL Override",
+      "music": "music-blast-furnace"
+    },
+    {
+      "id": "stage-14",
+      "label": "Stage 13 - Final Showdown",
+      "music": "music-escape"
+    },
+    {
       "id": "stage-boss",
       "label": "Boss",
       "music": "music-duel"
@@ -392,6 +422,57 @@
         "stage": {
           "in": [
             "stage-9"
+          ]
+        }
+      }
+    },
+    {
+      "id": "override-board-2a",
+      "label": "🔊 2A - Blast Furnace",
+      "play": [
+        {
+          "id": "music-blast-furnace",
+          "delay": 0
+        }
+      ],
+      "show_if": {
+        "stage": {
+          "in": [
+            "stage-13"
+          ]
+        }
+      }
+    },
+    {
+      "id": "override-board-7b",
+      "label": "🔊 7B - Warehouse",
+      "play": [
+        {
+          "id": "music-colosseo",
+          "delay": 0
+        }
+      ],
+      "show_if": {
+        "stage": {
+          "in": [
+            "stage-13"
+          ]
+        }
+      }
+    },
+    {
+      "id": "override-board-11b",
+      "label": "🔊 11B - Underground Base",
+      "play": [
+        {
+          "id": "music-rex-lair",
+          "delay": 0
+        }
+      ],
+      "show_if": {
+        "stage": {
+          "in": [
+            "stage-13"
           ]
         }
       }
