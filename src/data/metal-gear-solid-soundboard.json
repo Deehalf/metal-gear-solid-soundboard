@@ -248,8 +248,22 @@
       "music": "music-intruder-1"
     },
     {
+      "id": "stage-4",
+      "label": "Stage 4 - Revolver Ocelot",
+      "music": "music-duel"
+    },
+      "id": "stage-5",
+      "label": "Stage 5 - Tank Ambush",
+      "music": "music-hind"
+    },
+    {
       "id": "stage-6",
       "label": "Stage 6 - Warhead Storage",
+      "music": "music-warhead-storage"
+    },
+    {
+      "id": "stage-7",
+      "label": "Stage 7 - Cyborg Ninja",
       "music": "music-warhead-storage"
     },
     {
@@ -310,6 +324,9 @@
         "stage": {
           "not_in": [
             "stage-boss",
+            "stage-4",
+            "stage-5",
+            "stage-7",
             "stage-10",
             "stage-14"
           ]
