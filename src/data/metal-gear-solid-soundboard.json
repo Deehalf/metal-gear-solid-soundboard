@@ -2,6 +2,26 @@
   "sources": {
     "music": [
       {
+        "id": "music-revolver-ocelot",
+        "src": "https://dn721809.ca.archive.org/0/items/mgs3-complete-soundtrack/Disc%201/21.%20Ocelot%20-%20Battle.mp3",
+        "volume": 0.5
+      },
+      {
+        "id": "music-psycho-mantis",
+        "src": "https://ia804504.us.archive.org/25/items/metal-gear-solid-4-guns-of-the-patriots-original-soundtrack/CD2/09.%20Screaming%20Mantis.mp3",
+        "volume": 0.5
+      },
+      {
+        "id": "music-sniper-wolf",
+        "src": "https://ia804504.us.archive.org/25/items/metal-gear-solid-4-guns-of-the-patriots-original-soundtrack/CD2/02.%20Crying%20Wolf.mp3",
+        "volume": 0.5
+      },
+      {
+        "id": "music-vulcan-raven",
+        "src": "https://ia804504.us.archive.org/25/items/metal-gear-solid-4-guns-of-the-patriots-original-soundtrack/CD1/17.%20Raging%20Raven.mp3",
+        "volume": 0.5
+      },
+      {
         "id": "music-escape",
         "src": "https://dn720306.ca.archive.org/0/items/metal-gear-solid-original-game-soundtrack/17.%20Escape.mp3",
         "volume": 0.5
@@ -250,12 +270,12 @@
     {
       "id": "stage-4",
       "label": "Stage 4 - Revolver Ocelot",
-      "music": "music-duel"
+      "music": "music-revolver-ocelot"
     },
     {
       "id": "stage-5",
       "label": "Stage 5 - Tank Ambush",
-      "music": "music-hind"
+      "music": "music-duel"
     },
     {
       "id": "stage-6",
@@ -270,7 +290,7 @@
     {
       "id": "stage-8",
       "label": "Stage 8 - Psycho Mantis",
-      "music": "music-duel"
+      "music": "music-psycho-mantis"
     },
     {
       "id": "stage-9",
@@ -285,12 +305,12 @@
     {
       "id": "stage-11",
       "label": "Stage 11 - Sniper Wolf",
-      "music": "music-duel"
+      "music": "music-sniper-wolf"
     },
     {
       "id": "stage-12",
       "label": "Stage 12 - Vulcan Raven",
-      "music": "music-duel"
+      "music": "music-vulcan-raven"
     },
     {
       "id": "stage-13",
