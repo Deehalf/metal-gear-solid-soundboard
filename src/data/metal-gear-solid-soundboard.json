@@ -269,7 +269,7 @@
     },
     {
       "id": "stage-14",
-      "label": "Stage 13 - Final Showdown",
+      "label": "Stage 14 - Final Showdown",
       "music": "music-escape"
     },
     {
@@ -309,7 +309,9 @@
       "show_if": {
         "stage": {
           "not_in": [
-            "stage-boss"
+            "stage-boss",
+            "stage-10",
+            "stage-14"
           ]
         }
       }
