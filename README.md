@@ -14,7 +14,7 @@ The app was mainly built using GitHub Copilot since Wikiti didn't want to over e
 
 ## TODO
 
-- Create `show_if` conditionals for some stages (e.g. prevent Alert overrides in boss fights or setup)
+- Create the VR Stages
 
 ## Development
 
