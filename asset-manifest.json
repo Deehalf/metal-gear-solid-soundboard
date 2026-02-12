@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/metal-gear-solid-soundboard/static/css/main.098f1633.css",
+    "main.js": "/metal-gear-solid-soundboard/static/js/main.d50c589e.js",
+    "static/js/101.0ba248e4.chunk.js": "/metal-gear-solid-soundboard/static/js/101.0ba248e4.chunk.js",
+    "static/js/453.f721032f.chunk.js": "/metal-gear-solid-soundboard/static/js/453.f721032f.chunk.js",
+    "index.html": "/metal-gear-solid-soundboard/index.html",
+    "main.098f1633.css.map": "/metal-gear-solid-soundboard/static/css/main.098f1633.css.map",
+    "main.d50c589e.js.map": "/metal-gear-solid-soundboard/static/js/main.d50c589e.js.map",
+    "453.f721032f.chunk.js.map": "/metal-gear-solid-soundboard/static/js/453.f721032f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.098f1633.css",
+    "static/js/main.d50c589e.js"
+  ]
+}
