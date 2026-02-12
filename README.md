@@ -14,7 +14,7 @@ The app was mainly built using GitHub Copilot since Wikiti didn't want to over e
 
 ## TODO
 
-- Create the VR Stages
+- Create the VR Stages and choose their music.
 
 ## Development
 
